@@ -42,3 +42,13 @@ header nav ul li {
     position: relative;
     padding: 5px 0;
 }
+
+header nav ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #00f7ff;
+}
