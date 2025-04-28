@@ -110,3 +110,13 @@ header nav ul li:hover::after {
 .active {
     opacity: 1;
 }
+
+.product-img {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
