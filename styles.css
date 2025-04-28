@@ -215,3 +215,8 @@ header nav ul li:hover::after {
     font-weight: 800;
     color: rgba(255, 255, 255, 0.2  );
 }
+
+.dots {
+    display: flex;
+    gap: 10px;
+}
