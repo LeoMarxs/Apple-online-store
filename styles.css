@@ -126,3 +126,12 @@ header nav ul li:hover::after {
     max-height: 60%;
     filter: drop-shadow(0 0 30px rgba(0, 247, 255, 0.3));
 }
+
+.content {
+    width: 55%;
+    padding-right: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 2;
+}
