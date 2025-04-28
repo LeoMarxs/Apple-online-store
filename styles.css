@@ -134,4 +134,14 @@ header nav ul li:hover::after {
     align-items: flex-start;
     justify-content: center;
     z-index: 2;
+    flex-direction: column;
+}
+
+.product-tag {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #00f7ff;
+    font-weight: 600;
+    letter-spacing: 2PX;
+    margin-bottom: 10px;
 }
