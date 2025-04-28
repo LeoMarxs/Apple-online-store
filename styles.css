@@ -97,3 +97,16 @@ header nav ul li:hover::after {
     margin: 0 auto;
     position: relative;
 }
+
+.item {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.active {
+    opacity: 1;
+}
